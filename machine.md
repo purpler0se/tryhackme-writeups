@@ -6,4 +6,4 @@
 </br>
 </br></br></br></br></br>
 <h2> Firstly i did some basic enumeration </h2>
-![](images/nmapscan.png)
+![](images/nmap.png)

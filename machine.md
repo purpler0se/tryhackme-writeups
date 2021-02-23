@@ -8,7 +8,7 @@
 		to your /etc/hosts file on linux before you start." (example above)</h4>
 <h3> I checked out ftp port logging in as "anonymous" user with no password</h3><h4> ftp [MACHINE_IP] 21 </h4>
 	<img src="https://github.com/purpler0se/tryhackme-writeups/blob/main/images/ftp.png">
-<h3> I got prompted with this as i logged in. It told me a clue that will help us later in our payload/h3>
+<h3> I got prompted with this as i logged in. It told me a clue that will help us later in our payload</h3>
 	</h4>https://imagetragick.com</h4>
 </br>
 <h1>Web enumeration</h1>

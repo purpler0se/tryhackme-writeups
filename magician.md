@@ -29,7 +29,7 @@
 		<h4>pop graphic-context</h4>
 		<h3>I've changed the original payload at https://imagetragick.com so it gives us a shell, further explaination of this exploit CVE-2016-3174 at https://imagetragick.com</h3></br>
 			<img src="https://github.com/purpler0se/tryhackme-writeups/blob/main/images/payload.png">
-		<h4>Your payload should look like this</h4>
+		<h4>Your payload should look like this and when you run "file" on the payload u should get "ImageMagick Vector Graphic"</h4>
 <h1> Getting a shell</h1>
 	<h3>Setup a netcat listner on your local machine</h3>
 	<h4> nc -lnvp [any_port]</h4>

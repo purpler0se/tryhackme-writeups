@@ -14,7 +14,7 @@
 <h1>Web enumeration</h1>
 	<img src="https://github.com/purpler0se/tryhackme-writeups/blob/main/images/convert.png">
 
-<h3> Port 8081 had a png to jpg converted which could be a ticket for our shell</h3>
+<h3> Port 8081 had a png to jpg converted which is the ticket for our way in :D</h3>
 	<h4>but port 8080,for now had nothing intresting</h4>
 	<h3> with that given link (https://imagetragick.com) we can create a reverse shell payload</h3>
 </br>

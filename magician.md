@@ -52,7 +52,7 @@
 		<img src="https://github.com/purpler0se/tryhackme-writeups/blob/main/images/ips.png">
 	<h3>As you can see the localhost on port 6666 is listening. I did the following command</h3>
 		<h4> curl 127.0.0.1:6666</h4>
-	<h3>And got the code for a simple input website - i think was suppose to be port 8081</h3>
+	<h3>And got the code for a simple input website </h3>
 	<h3>Now reading the source code u can see there is a input with the name "filename" so the code i used to send to this input is</h3>
 		<h4>curl --request POST 'http://127.0.0.1:6666' --data "filename=/root/root.txt"</h4>
 	<h3>I decrypted this by going to https://gchq.github.io/CyberChef/ and using the "From Hex" to get the THM{} flag</h3>

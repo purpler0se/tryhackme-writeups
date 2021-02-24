@@ -44,7 +44,7 @@
 	ZSH: stty raw -echo; fg
 	</h4>
 	<h4> and then WHACK your enter key 3x</h4>
-	<h4> stty rows [yours] cols [yours] (You can find your rows and columns by doing stty -a on your local machine</h4>
+	<h4> stty rows [yours] cols [yours] (You can find your rows and columns by doing stty -a on your local machine)</h4>
 <h1> From Magician to ROOT</h1>
 		<img src="https://github.com/purpler0se/tryhackme-writeups/blob/main/images/hint.png">
 	<h3>We got a hint in the home directory magician, file named "the_magic_continues," the giveaway to the priv esc is "locally listening" therefore its a internal ip priv esc 			situation.We can list the listening connection on the targets machine by doing</h3>

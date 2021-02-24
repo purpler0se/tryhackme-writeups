@@ -1,6 +1,5 @@
 <h1> Tryhackme Magician Machine </h1>
 <h3>by purpler0se</h3>
-	<p>...enjoy :D</p>
 <h5> https://tryhackme.com/room/magician </h5>
 <h4>Created by M0N573R777 and ripcurlz</h4>
 <h2> Starting off with basic enumeration to get our ports </h2>

